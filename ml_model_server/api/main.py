@@ -48,6 +48,7 @@ async def predict(
         'confidence': float(confidence)
     }
 
-# if __name__ == "__main__":
-#     uvicorn.run(app)
+if __name__ == "__main__":
+    uvicorn.run(app,host=0.0.0.0 port=$PORT)
+    
 
